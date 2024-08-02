@@ -1,0 +1,14 @@
+<div class="row" style="margin-left: 2%; margin-right: 2%;">
+    @for (item of component; track item.id) {
+<div class="card" style="width: 18rem;  margin: 20px;" >
+    <img src="{{item.Image}}" class="card-img-top" alt="..."  >
+    <div class="card-body">
+        <h5 class="card-title">{{item.title}}</h5>
+      <p class="card-text" style="font-family: Arial, Helvetica, sans-serif;">{{item.Description}}</p>
+      <a routerLink="" class="card-link">click here</a>
+      
+    </div>
+  </div>
+}
+</div>
+<br>
